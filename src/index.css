@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-middle {
+    text-anchor: middle;
+}
+
+section:nth-child(even) {
+    background-color: theme(colors.gray.100)
+}
